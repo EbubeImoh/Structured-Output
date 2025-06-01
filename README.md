@@ -25,7 +25,15 @@ This project aims to:
 
 📁 **Project Structure**
 
-adk-structured-output-tester/ ├── structured_output_tester/ │ ├── init.py # Makes the module importable │ ├── agent.py # Core agent logic, defines interaction paths for each output type │ ├── structured_outputs.py # Defines Pydantic models or dataclasses for custom outputs │ └── prompts.py # Contains prompt templates for eliciting structured data └── README.md
+```
+adk-structured-output-tester/
+├── structured_output_tester/
+│   ├── __init__.py              # Makes the module importable
+│   ├── agent.py                 # Core agent logic, defines interaction paths for each output type
+│   ├── structured_outputs.py    # Defines Pydantic models or dataclasses for custom outputs
+│   └── prompts.py               # Contains prompt templates for eliciting structured data
+└── README.md
+```
 
 plaintext
 
